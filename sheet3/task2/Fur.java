@@ -1,0 +1,14 @@
+package sheet3.task2;
+
+public class Fur {
+	public int length;
+	public Fur(int length) {
+		this.length = length;
+	}
+	public void setFurLength(int length) {
+		this.length = length;
+	}
+	public String toString() {
+		return "Felllaenge: " + length;
+	}
+}

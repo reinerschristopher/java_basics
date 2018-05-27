@@ -1,0 +1,7 @@
+package sheet3.task3;
+
+public class Kassette implements Playable {
+	public void song() {
+		System.out.println("Alle meine Entchen...");
+	}
+}
