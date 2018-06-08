@@ -1,7 +1,6 @@
 package sheet5.task3;
 
 class Sort {
-	
 	static double[] sortArray(double[] array) {
 		for(int i = 0; i < array.length; i++) {
 			int indexMinValue = i;
@@ -16,12 +15,5 @@ class Sort {
 		}
 		
 		return array;
-	}
-	
-	static void print(double[] array) {
-		for(int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + "\t");
-		}
-		System.out.println();
 	}
 }
