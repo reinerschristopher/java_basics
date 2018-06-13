@@ -1,4 +1,4 @@
-package sheet6task1;
+package sheet6.task1;
 
 public class ThreadTest {
 	
@@ -13,19 +13,19 @@ public class ThreadTest {
 
 /* Aufgabe 1
  * ------------------------------------------ a) ------------------------------------------------
- * 1.Möglichkeit: Leite eine KLasse von der Klasse Thread ab und überschreibe die Funktion run()
+ * 1.MÃ¶glichkeit: Leite eine KLasse von der Klasse Thread ab und Ã¼berschreibe die Funktion run()
  * 		-> Vorteil: Einfacher zu verwenden
  * 
- * 2.Möglichkeit: Klasse die das Interface Runnable implementiert und überschreibe die Funktion run()
- * 		-> Vorteil: Deutlich flexibler, keine Beschränkung durch Einfachvererbung und kann von beliebigen Oberklassen von Thread erben
+ * 2.MÃ¶glichkeit: Klasse die das Interface Runnable implementiert und Ã¼berschreibe die Funktion run()
+ * 		-> Vorteil: Deutlich flexibler, keine BeschrÃ¤nkung durch Einfachvererbung und kann von beliebigen Oberklassen von Thread erben
  * 
- * Aufruf in beiden Fällen, dann mittels einer Instanz der Klasse und .start()
+ * Aufruf in beiden FÃ¤llen, dann mittels einer Instanz der Klasse und .start()
  * 	
  * ------------------------------------------ b) ------------------------------------------------
- * Ausgabe sind zunächst die Zahlen null bis neun und anschließend zehn mal das aktuelle Datum
+ * Ausgabe sind zunÃ¤chst die Zahlen null bis neun und anschlieÃŸend zehn mal das aktuelle Datum
  * 
  * ------------------------------------------ c) ------------------------------------------------
  * Ausgabe: 0, 2018-06-07, 2018-06-07, 1, 2018-06-07, 2, 3, 4, 5, 2018-06-07, 6, 7, 2018-06-07, 2018-06-07, 8, 9, 2018-06-07, 2018-06-07, 2018-06-07, 2018-06-07
- * Erklärung: Die beiden Threads arbeiten parallel (auch zum Hauptthread) und durch die Verzögerung werden sie im Gegensatz zur b) auch teilweise gleichzeitig ausgeführt.
- * 				Die Ausgabe ist bei jeder erneuten Ausführung anders.
+ * ErklÃ¤rung: Die beiden Threads arbeiten parallel (auch zum Hauptthread) und durch die VerzÃ¶gerung werden sie im Gegensatz zur b) auch teilweise gleichzeitig ausgefÃ¼hrt.
+ * 				Die Ausgabe ist bei jeder erneuten AusfÃ¼hrung anders.
  */
