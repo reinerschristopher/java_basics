@@ -1,4 +1,4 @@
-package sheet6task1;
+package sheet6.task1;
 import java.time.LocalDate; 
 
 public class DateCommand implements Runnable {
