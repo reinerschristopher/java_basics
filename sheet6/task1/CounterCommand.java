@@ -1,4 +1,4 @@
-package sheet6task1;
+package sheet6.task1;
 
 public class CounterCommand implements Runnable {
 
